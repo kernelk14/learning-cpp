@@ -14,9 +14,10 @@ class Sorts {
 					}
 				}
 			}
-			Sorts(vector<int> &v) {
-				bubbleSort(v);
-			}
+		}
+		Sorts() {}
+		Sorts(vector<int> &v) {
+			bubbleSort(v);
 		}
 };
 
